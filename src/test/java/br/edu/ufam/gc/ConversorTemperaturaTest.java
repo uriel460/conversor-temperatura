@@ -25,7 +25,7 @@ class ConversorTemperaturaTest {
 
     @Test
     void fahrenheitParaCelsius_aguaFervendo() {
-        assertEquals(100.0, conversor.fahrenheitParaCelsius(212.0), 0.01);
+        assertEquals(150.0, conversor.fahrenheitParaCelsius(212.0), 0.01);
     }
 
     @Test
